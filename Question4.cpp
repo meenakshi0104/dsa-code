@@ -3,6 +3,7 @@ using namespace std;
 
 void solve(){
 
+    // Chocolate Distribution Problem 
     int n;
     cin >> n;
 
@@ -16,7 +17,7 @@ void solve(){
     cin >> m;
     sort(arr, arr + n);
     int mini = INT_MAX;
-    
+
     for (int i = 0; i <= n - m; i++)
     {
         if (mini > (arr[i + m - 1] - arr[i]))
