@@ -2,7 +2,7 @@
 using namespace std;
 
 void solve(){
-
+    // Valid Anagram
     string s;
     cin >> s;
 
