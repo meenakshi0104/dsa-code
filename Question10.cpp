@@ -14,9 +14,7 @@ void solve(){
             temp.push_back(S[i]);
         }
     }
-    for(int i=0; i<temp.size(); i++){
-        cout<<temp;
-    }
+    cout<<temp;
     
 }
 
