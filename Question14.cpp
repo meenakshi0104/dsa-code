@@ -59,11 +59,6 @@ int main(){
         freopen("output.txt", "w", stdout);
     #endif
 
-    int t;
-    cin >> t;
-
-    while(t--){
         solve();
-    }
 
 }
